@@ -89,18 +89,18 @@ public class KeyConfig {
      * 日出时间
      * 只有和风天气才有
      */
-    public static final KeyDTO KEY_SUN_RISE = new KeyDTO("sunrise","#FFFFFF",true);
+    public static final KeyDTO KEY_SUN_RISE = new KeyDTO("sunrise","#FFFFFF",false);
 
     /**
      * 日落时间
      * 只有和风天气才有
      */
-    public static final KeyDTO KEY_SUN_SET = new KeyDTO("sunset","#FFFFFF",true);
+    public static final KeyDTO KEY_SUN_SET = new KeyDTO("sunset","#FFFFFF",false);
 
     /**
      * 随机API消息
      */
-    public static final KeyDTO KEY_RANDOM_INFO = new KeyDTO("randomInfo","#FFFFFF",true);
+    public static final KeyDTO KEY_RANDOM_INFO = new KeyDTO("randomInfo","#FFFFFF",false);
 
     /**
      * 情话
@@ -141,7 +141,7 @@ public class KeyConfig {
     /**
      * 新冠
      */
-    public static final KeyDTO KEY_XIN_GUAN= new KeyDTO("xinGuan","#FFFFFF",true);
+    public static final KeyDTO KEY_XIN_GUAN= new KeyDTO("xinGuan","#FFFFFF",false);
 
 
 
