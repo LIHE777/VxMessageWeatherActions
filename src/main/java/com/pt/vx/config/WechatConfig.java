@@ -11,13 +11,13 @@ public class WechatConfig {
      * 你的微信的APPID
      * appId
      */
-    public static final String VxAppId = "your VxAppId";
+    public static final String VxAppId = "wxea9764bda677c24f";
 
     /**
      * 你的微信的密钥
      * appSecret
      */
-    public static final String VxAppSecret = "your VxAppSecret";
+    public static final String VxAppSecret = "bbb435379a15f598f3e3d20639ae84d0";
 
     public static final List<User> userList = new ArrayList<>();
 
@@ -38,23 +38,23 @@ public class WechatConfig {
      */
     static {
         userList.add(getUser(
-                "这个人扫码后的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "微信消息模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                "ovilY6giDMKMip6aLcNxbARJT1-k", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "GaJa-rOIdzhq2ZgwCk-ipOZ-FqNmLPdOR8cxQ4PILVI", //要给这个人发送的模板ID
+                "大聪明1", //咋称呼这个人
+                "广东省东莞市虎门镇", //这个人的详细地址
+                "广东", //这个人在的城市
+                new BirthDay(2000,3,6,true,false,"pt生日快乐！！"),
+                new BirthDay(2000,3,6,false,false,"生日快乐哦~~"),
+                new BirthDay(2000,3,6,true,true),
+                new BirthDay(2000,3,6,true,false,"周年快乐！！！")
         ));
 
         userList.add(getUser(
-                "这个人扫码后的微信号",
-                "微信消息模板ID",
-                "这个人的称呼",
-                "江苏省南京市玄武区",
-                "南京",
+                "ovilY6vGGvpMUNFUmEYiOdCJUdjk",
+                "GaJa-rOIdzhq2ZgwCk-ipOZ-FqNmLPdOR8cxQ4PILVI",
+                "大聪明2",
+                "广东省广州市南沙区",
+                "广东",
                 new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
                 new BirthDay(2020,7,8,true,true),
